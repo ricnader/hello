@@ -10,6 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Badges - Readme
-        uses: pemtajo/badge-readme@main
+        uses: pemtajo/readme@main
         with:       
           CREDLY_USER: ric.nader@gmail.com # optional, but default will use the same from github
